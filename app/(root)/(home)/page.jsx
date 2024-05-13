@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import React from "react";
 import WorkingFlow from "@/sections/workingFlow";
+import Awareness from "@/sections/awareness";
 
 const Home = () => {
   return (
@@ -35,7 +36,11 @@ const Home = () => {
       </div>
 
       <div className="w-full h-full mt-8 md:mt-16 lg:mt-20">
-      <WorkingFlow />
+        <WorkingFlow />
+      </div>
+
+      <div className="w-full h-full mt-8 rounded-xl border-2 border-gray-150">
+        <Awareness />
       </div>
     </main>
   );

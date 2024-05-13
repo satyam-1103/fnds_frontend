@@ -19,9 +19,7 @@ const ProcessCarousel = () => {
           {process.map((item, index) => (
             <CarouselItem key={index}>
               <div className="flex items-center justify-center">
-                <p className="bg-primary-blue text-white flex items-center justify-center font-semibold rounded-full p-4 w-8 h-8">
-                  {item.step}
-                </p>
+                
 
                 <div className="flex flex-col gap-2  px-12 py-10">
                   {/* Image to be replace here */}

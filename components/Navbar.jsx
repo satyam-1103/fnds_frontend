@@ -31,7 +31,6 @@ const Navbar = () => {
                 <div className="flex flex-col py-8 mt-20 gap-4 items-start px-4 w-full text-black text-lg">
                   <Link href="/">Home</Link>
                   <Link href="application">Application</Link>
-                  <Link href="#">About Us</Link>
                 </div>
               </SheetDescription>
             </SheetHeader>
